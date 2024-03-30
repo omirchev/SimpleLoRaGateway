@@ -13,14 +13,14 @@
 #include "LoRaInterface.h"
 
 // WiFi credentials
-#define WIFI_SSID     "*****"
-#define WIFI_PASSWORD "*****"
+#define WIFI_SSID     "BEARS KINGDOM 2"
+#define WIFI_PASSWORD "K@fevark@"
 
 // MQTT Broker info
 // Define either an IP address...
-//#define MQTT_SERVER   IPAddress(192, 168, 0, 2)
+//#define MQTT_SERVER   IPAddress(192, 168, 0, 151)
 // ...or a hostname
-#define MQTT_SERVER   "Mac-mini"
+#define MQTT_SERVER   "core-mosquitto"
 
 // checkAndForwardPackets()
 // This is the core function that checks for received LoRa packets and forwards the contents on to MQTT
